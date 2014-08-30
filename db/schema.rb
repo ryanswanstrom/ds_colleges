@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140830215147) do
+ActiveRecord::Schema.define(version: 20140830215200) do
 
   create_table "active_admin_comments", force: true do |t|
     t.string   "namespace"
@@ -45,5 +45,30 @@ ActiveRecord::Schema.define(version: 20140830215147) do
 
   add_index "admin_users", ["email"], name: "index_admin_users_on_email", unique: true
   add_index "admin_users", ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
+
+  create_table "school_extras", force: true do |t|
+    t.decimal  "gre"
+    t.decimal  "gmat"
+    t.integer  "school_id"
+    t.string   "schoolyear"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "school_extras", ["school_id"], name: "index_school_extras_on_school_id"
+
+  create_table "schools", force: true do |t|
+    t.string   "name"
+    t.string   "url"
+    t.string   "program"
+    t.string   "degree"
+    t.string   "country"
+    t.string   "state"
+    t.boolean  "online"
+    t.boolean  "oncampus"
+    t.string   "department"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
