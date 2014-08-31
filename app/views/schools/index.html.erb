@@ -1,2 +1,11 @@
-<h1>Schools#index</h1>
-<p>Find me in app/views/schools/index.html.erb</p>
+<h1>Colleges and Universities with Data Science Degrees</h1>
+<p>A big list</p>
+
+<table>
+  <% @schools.each do |school| %>
+    <tr>
+      <td><strong><%= school.name %></strong></td>
+      <td><%= school.program %></td>
+    </tr>
+  <% end %>
+</table>
