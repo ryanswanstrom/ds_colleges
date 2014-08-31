@@ -48,6 +48,7 @@ gem 'google-analytics-rails'
 gem 'tzinfo-data'
 gem 'validates_formatting_of'
 gem 'country_select', github: 'stefanpenner/country_select'
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'rspec-rails'
