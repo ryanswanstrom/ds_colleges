@@ -47,6 +47,7 @@ gem 'devise', github: 'plataformatec/devise'
 gem 'google-analytics-rails'
 gem 'tzinfo-data'
 gem 'validates_formatting_of'
+gem 'country_select', github: 'stefanpenner/country_select'
 
 group :development, :test do
   gem 'rspec-rails'
