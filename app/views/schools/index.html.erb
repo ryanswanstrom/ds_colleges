@@ -1,11 +1,14 @@
 <h1>Colleges and Universities with Data Science Degrees</h1>
-<p>A big list</p>
 
-<table>
+<table class='table table-striped table-hover'>
+  <thead>
+    <tr><th>College</th><th>Program</th><th>Degree</th> </tr>
+  </thead>
   <% @schools.each do |school| %>
     <tr>
       <td><strong><%= school.name %></strong></td>
-      <td><%= school.program %></td>
+      <td> <%= link_to school.program, school.url, title:school.name+' '+school.degree+' in '+school.program  %></td>
+      <td><%= school.degree %></td>
     </tr>
   <% end %>
 </table>
