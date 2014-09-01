@@ -21,3 +21,12 @@ School.create(name: 'Dakota State University',
   online: true,
   oncampus: true,
   department: 'Business and Information Systems')
+School.create(name: 'Lewis University',
+  url: 'http://www.lewisu.edu/academics/data-science/index.htm',
+  program: 'Data Science',
+  degree: 'Masters',
+  country: 'USA',
+  state: 'IL',
+  online: true,
+  oncampus: true,
+  department: 'Computer Science')
