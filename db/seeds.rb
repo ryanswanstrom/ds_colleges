@@ -156,7 +156,7 @@ School.create(
     program: 'Data Science',
   degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'MA',
     online: false,
     oncampus: true,
     department: '')
@@ -461,15 +461,15 @@ School.create(
     oncampus: true,
     department: '')
 School.create(
-    name: 'Department of Statistics, University of Illinois: MS in Analytics',
+    name: 'University of Illinois',
     url: 'http://www.stat.illinois.edu/degrees/msanalytics.shtml',
-    program: 'Department of Statistics, University of Illinois: MS in Analytics',
-    degree: 'Department of Statistics, University of Illinois: MS in Analytics',
+    program: 'Analytics',
+  degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'IL',
     online: false,
     oncampus: true,
-    department: '')
+    department: 'Statistics')
 School.create(
     name: 'National University of Singapore | MASTER OF SCIENCE BUSINESS ANALYTICS PROGRAMME',
     url: 'http://msba.nus.edu/home',
@@ -746,7 +746,7 @@ School.create(
     program: 'Data Science: Analytics Professional Master\'s Programs',
     degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'IL',
     online: false,
     oncampus: true,
     department: '')
@@ -1505,7 +1505,7 @@ School.create(
     program: 'Informatics',
   degree: 'Doctorate',
     country: 'USA',
-    state: '',
+    state: 'IN',
     online: false,
     oncampus: true,
     department: 'School of Informatics')
@@ -1770,55 +1770,75 @@ School.create(
     oncampus: true,
     department: '')
 School.create(
-    name: 'Business Analytics Ms | Arizona State University',
-    url: 'https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/BABUSANMS/graduate/false?init=false&nopassive=true',
-    program: 'Business Analytics Ms | Arizona State University',
-    degree: 'Business Analytics Ms | Arizona State University',
+    name: 'Arizona State University',
+    url: 'http://wpcarey.asu.edu/masters-programs/business-analytics',
+    program: 'Business Analytics',
+  degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'AZ',
     online: false,
     oncampus: true,
-    department: '')
+  department: 'Business')
 School.create(
-    name: 'Applied MS in Statistics and Data Analytics Program - Department of Statistical Science - Dedman College - SMU',
+  name: 'Southern Methodist University',
     url: 'http://www.smu.edu/Dedman/Academics/Departments/Statistics/AppliedMSProgram',
-    program: 'Applied MS in Statistics and Data Analytics Program - Department of Statistical Science - Dedman College - SMU',
-    degree: 'Applied MS in Statistics and Data Analytics Program - Department of Statistical Science - Dedman College - SMU',
+    program: 'Statistics and Data Analytics',
+  degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'TX',
     online: false,
     oncampus: true,
-    department: '')
+    department: 'Statistics')
 School.create(
-    name: 'The School of Computingâ€™s new MSc in Data Science :: School of Computing at University of Dundee',
+    name: 'University of Dundee',
     url: 'http://www.computing.dundee.ac.uk/newsandevents/newsdetail.asp?978',
-    program: 'The School of Computingâ€™s new MSc in Data Science :: School of Computing at University of Dundee',
-    degree: 'The School of Computingâ€™s new MSc in Data Science :: School of Computing at University of Dundee',
+    program: 'Data Science',
+  degree: 'Masters',
     country: 'GB',
     state: '',
     online: false,
     oncampus: true,
-    department: '')
+    department: 'Computing')
 School.create(
-    name: 'Data Science at NYU Programs | Data Science at NYU',
-    url: 'http://datascience.nyu.edu/academics/programs/',
-    program: 'Data Science at NYU Programs | Data Science at NYU',
-    degree: 'Data Science at NYU Programs | Data Science at NYU',
+  name: 'New York University (NYU)',
+    url: 'http://cds.nyu.edu/academics/ms-in-data-science/',
+    program: 'Data Science,
+degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'NY',
     online: false,
     oncampus: true,
-    department: '')
+department: 'Interdisciplinary')
 School.create(
-    name: 'Computational Sciences, Informatics, And Data Science | George Mason University ',
-    url: 'http://spacs.gmu.edu/category/academics/graduate-programs/',
-    program: 'Computational Sciences, Informatics, And Data Science | George Mason University ',
-    degree: 'Computational Sciences, Informatics, And Data Science | George Mason University ',
+    name: 'George Mason University',
+    url: 'http://spacs.gmu.edu/minor-in-computational-and-data-sciences/',
+    program: 'Computational Data Sciences Minor',
+  degree: 'Bachelors',
     country: 'USA',
-    state: '',
+    state: 'VA',
     online: false,
     oncampus: true,
-    department: '')
+    department: 'School of Physics, Astronomy, and Computational Sciences')
+School.create(
+    name: 'George Mason University',
+    url: 'http://spacs.gmu.edu/ms-in-computational-science/',
+  program: 'Computational Science',
+  degree: 'Masters',
+    country: 'USA',
+    state: 'VA',
+    online: false,
+    oncampus: true,
+    department: 'School of Physics, Astronomy, and Computational Sciences')
+School.create(
+    name: 'George Mason University',
+    url: 'http://spacs.gmu.edu/phd-in-computational-sciences-and-informatics/',
+    program: 'Computational Sciences and Informatics',
+  degree: 'Doctorate',
+    country: 'USA',
+    state: 'VA',
+    online: false,
+    oncampus: true,
+    department: 'School of Physics, Astronomy, and Computational Sciences')
 School.create(
   name: 'Central Connecticut State University',
     url: 'http://web.ccsu.edu/datamining/',
@@ -1870,7 +1890,7 @@ School.create(
     oncampus: true,
     department: '')
 School.create(
-  name: 'New York University',
+  name: 'New York University (NYU)',
     url: 'http://www.stern.nyu.edu/programs-admissions/global-degrees/business-analytics/index.htm',
     program: 'Business Analytics',
   degree: 'Masters',
