@@ -301,45 +301,45 @@ School.create(
     oncampus: true,
     department: '')
 School.create(
-    name: 'Nova School Of Statistics And Information Management (isegi Nova) | Master Degree In Information Management, Specialization In Information Systems And Technologies Management',
+    name: 'Universidade Nova de Lisboa',
     url: 'http://www.isegi.unl.pt/MGI/Especializacao/Gestao-Sistemas-Tecnologias-Informacao/Detalhe-do-Curso/plano-de-estudos.asp',
-    program: 'Nova School Of Statistics And Information Management (isegi Nova) | Master Degree In Information Management, Specialization In Information Systems And Technologies Management',
-    degree: 'Nova School Of Statistics And Information Management (isegi Nova) | Master Degree In Information Management, Specialization In Information Systems And Technologies Management',
+    program: 'Information Management',
+  degree: 'Masters',
     country: 'PT',
     state: '',
     online: false,
     oncampus: true,
-    department: '')
+    department: 'Statistics And Information Management')
 School.create(
-    name: 'Wu (vienna University Of Economics And Business) | Master Of Science In Information Systems (is)',
+    name: 'Vienna University',
     url: 'http://www.wu.ac.at/programs/en/master/is/structure/firstyear',
-    program: 'Wu (vienna University Of Economics And Business) | Master Of Science In Information Systems (is)',
-    degree: 'Wu (vienna University Of Economics And Business) | Master Of Science In Information Systems (is)',
+    program: 'Information Systems',
+  degree: 'Masters,
     country: 'AT',
     state: '',
     online: false,
     oncampus: true,
-    department: '')
+  department: 'Business')
 School.create(
-    name: 'Cornell University | Master Of Professional Studies (mps) In Applied Statistics (option Ii: Data Science)',
+    name: 'Cornell University',
     url: 'http://stat.cornell.edu/academics/mps',
-    program: 'Cornell University | Master Of Professional Studies (mps) In Applied Statistics (option Ii: Data Science)',
-    degree: 'Cornell University | Master Of Professional Studies (mps) In Applied Statistics (option Ii: Data Science)',
+    program: 'Applied Statistics',
+degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'NY',
     online: false,
     oncampus: true,
-    department: '')
+    department: 'Statistics')
 School.create(
-    name: 'Harvard University | M.s. In Computational Science And Engineering',
+    name: 'Harvard University',
     url: 'http://www.seas.harvard.edu/computational-science-and-engineering/master-science-cse',
-    program: 'Harvard University | M.s. In Computational Science And Engineering',
-    degree: 'Harvard University | M.s. In Computational Science And Engineering',
-    country: 'SE',
-    state: '',
+    program: 'Computational Science And Engineering',
+degree: 'Masters',
+    country: 'USA',
+    state: 'MA',
     online: false,
     oncampus: true,
-    department: '')
+department: 'Engineering')
 School.create(
     name: 'University Of Maryland, College Park | M.s. In Business With Concentration In Marketing Analytics',
     url: 'http://www.rhsmith.umd.edu/programs/ms-programs',
