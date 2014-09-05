@@ -1,9 +1,10 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-
+# contains many colleges from Listudy.com and the datascience101 blog
 
 # ruby encoding: utf-8
-School.create(name: 'South Dakota State University',
+School.create(
+  name: 'South Dakota State University',
   url: 'http://www.sdstate.edu/mathstat/grad/masters-in-data-science.cfm',
   program: 'Data Science',
   degree: 'Masters',
@@ -12,7 +13,8 @@ School.create(name: 'South Dakota State University',
   online: false,
   oncampus: true,
   department: 'Mathematics and Statistics')
-School.create(name: 'Dakota State University',
+School.create(
+  name: 'Dakota State University',
   url: 'http://www.dsu.edu/msa/',
   program: 'Analytics',
   degree: 'Masters',
@@ -21,7 +23,8 @@ School.create(name: 'Dakota State University',
   online: true,
   oncampus: true,
   department: 'Business and Information Systems')
-School.create(name: 'Lewis University',
+School.create(
+  name: 'Lewis University',
   url: 'http://www.lewisu.edu/academics/data-science/index.htm',
   program: 'Data Science',
   degree: 'Masters',
@@ -314,7 +317,7 @@ School.create(
     name: 'Vienna University',
     url: 'http://www.wu.ac.at/programs/en/master/is/structure/firstyear',
     program: 'Information Systems',
-  degree: 'Masters,
+  degree: 'Masters',
     country: 'AT',
     state: '',
     online: false,
@@ -341,125 +344,105 @@ degree: 'Masters',
     oncampus: true,
 department: 'Engineering')
 School.create(
-    name: 'University Of Maryland, College Park | M.s. In Business With Concentration In Marketing Analytics',
+    name: 'University Of Maryland, College Park',
     url: 'http://www.rhsmith.umd.edu/programs/ms-programs',
-    program: 'University Of Maryland, College Park | M.s. In Business With Concentration In Marketing Analytics',
-    degree: 'University Of Maryland, College Park | M.s. In Business With Concentration In Marketing Analytics',
+    program: 'Marketing Analytics',
+degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'MD',
     online: false,
     oncampus: true,
-    department: '')
+department: 'Business')
 School.create(
-    name: 'Rutgers University | Master Of Business And Science With Concentration In Analytics',
+    name: 'Rutgers University',
     url: 'http://psm.rutgers.edu/programs/analytics',
-    program: 'Rutgers University | Master Of Business And Science With Concentration In Analytics',
-    degree: 'Rutgers University | Master Of Business And Science With Concentration In Analytics',
+program: 'Business Analytics',
+degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'NJ',
     online: false,
     oncampus: true,
-    department: '')
+department: 'Business')
 School.create(
-    name: 'Cornell University | M.eng. Concentration In Data Analytics',
+    name: 'Cornell University',
     url: 'http://www.orie.cornell.edu/orie/academics/master/index.cfm',
-    program: 'Cornell University | M.eng. Concentration In Data Analytics',
-    degree: 'Cornell University | M.eng. Concentration In Data Analytics',
+    program: 'Data Analytics',
+degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'NY',
     online: false,
     oncampus: true,
-    department: '')
+department: 'Engineering')
 School.create(
-    name: 'Arizona State University | M.s. In Business Analytics',
-    url: 'http://wpcarey.asu.edu/masters-programs/business-analytics',
-    program: 'Arizona State University | M.s. In Business Analytics',
-    degree: 'Arizona State University | M.s. In Business Analytics',
-    country: 'USA',
-    state: '',
-    online: false,
-    oncampus: true,
-    department: '')
-School.create(
-    name: 'Brandeis University | M.s. In Strategic Analytics',
+    name: 'Brandeis University',
     url: 'http://www.brandeis.edu/gps/courses/programs/listings/strategic-analytics.html',
-    program: 'Brandeis University | M.s. In Strategic Analytics',
-    degree: 'Brandeis University | M.s. In Strategic Analytics',
+    program: 'Strategic Analytics',
+    degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'MA',
     online: false,
     oncampus: true,
     department: '')
 School.create(
-    name: 'Depaul University | M.s. In Predictive Analytics',
+    name: 'Depaul University',
     url: 'http://www.cdm.depaul.edu/academics/Pages/MS-In-Predictive-Analytics.aspx',
-    program: 'Depaul University | M.s. In Predictive Analytics',
-    degree: 'Depaul University | M.s. In Predictive Analytics',
+    program: 'Predictive Analytics',
+degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'IL',
     online: true,
     oncampus: true,
-    department: '')
+    department: 'Computing')
 School.create(
-    name: 'Southern New Hampshire University | M.s. In Data Analytics',
+    name: 'Southern New Hampshire University',
     url: 'http://www.snhu.edu/online-degrees/graduate-degrees/data-analytics-ms-online.asp',
-    program: 'Southern New Hampshire University | M.s. In Data Analytics',
-    degree: 'Southern New Hampshire University | M.s. In Data Analytics',
+    program: 'Data Analytics',
+    degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'NH',
+    online: true,
+    oncampus: false,
+    department: '')
+School.create(
+    name: 'Bowling Green State University',
+    url: 'http://www.bgsu.edu/gradcoll/programs/page136074.html',
+    program: 'Analytics',
+  degree: 'Masters',
+    country: 'USA',
+    state: 'OH',
+    online: false,
+    oncampus: true,
+    department: '')
+School.create(
+    name: 'Harrisburg University Of Science And Technology',
+    url: 'http://www.harrisburgu.edu/academics/graduate/analytics/',
+    program: 'nalytics',
+    degree: 'Masters',
+    country: 'USA',
+    state: 'PA',
     online: true,
     oncampus: true,
     department: '')
 School.create(
-    name: 'Bowling Green State University | M.s. In Analytics',
-    url: 'http://www.bgsu.edu/gradcoll/programs/page136074.html',
-    program: 'Bowling Green State University | M.s. In Analytics',
-    degree: 'Bowling Green State University | M.s. In Analytics',
-    country: 'USA',
-    state: '',
-    online: false,
-    oncampus: true,
-    department: '')
-School.create(
-    name: 'Harrisburg University Of Science And Technology | M.s. In Analytics',
-    url: 'http://www.harrisburgu.edu/academics/graduate/analytics/',
-    program: 'Harrisburg University Of Science And Technology | M.s. In Analytics',
-    degree: 'Harrisburg University Of Science And Technology | M.s. In Analytics',
-    country: 'USA',
-    state: '',
-    online: false,
-    oncampus: true,
-    department: '')
-School.create(
-    name: 'Texas A&m University | M.s. In Analytics',
+    name: 'Texas A&M University',
     url: 'http://analytics.stat.tamu.edu/',
-    program: 'Texas A&m University | M.s. In Analytics',
-    degree: 'Texas A&m University | M.s. In Analytics',
+    program: 'Analytics',
+  degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'TX',
     online: false,
     oncampus: true,
     department: '')
 School.create(
-    name: 'Columbia University | Masters In Data Sciences',
+    name: 'Columbia University',
     url: 'http://idse.columbia.edu/masters',
-    program: 'Columbia University | Masters In Data Sciences',
-    degree: 'Columbia University | Masters In Data Sciences',
+    program: 'Data Science',
+    degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'NY',
     online: false,
     oncampus: true,
-    department: '')
-School.create(
-    name: 'Bachelors In Statistics Mathematics And Data Management | Genova Italy',
-    url: 'http://www.dima.unige.it/SMID/',
-    program: 'Bachelors In Statistics Mathematics And Data Management | Genova Italy',
-    degree: 'Bachelors In Statistics Mathematics And Data Management | Genova Italy',
-    country: 'USA',
-    state: '',
-    online: false,
-    oncampus: true,
-    department: '')
+  department: 'Institute for Data Sciences and Engineering')
 School.create(
     name: 'University of Illinois',
     url: 'http://www.stat.illinois.edu/degrees/msanalytics.shtml',
@@ -471,31 +454,31 @@ School.create(
     oncampus: true,
     department: 'Statistics')
 School.create(
-    name: 'National University of Singapore | MASTER OF SCIENCE BUSINESS ANALYTICS PROGRAMME',
+    name: 'National University of Singapore',
     url: 'http://msba.nus.edu/home',
-    program: 'National University of Singapore | MASTER OF SCIENCE BUSINESS ANALYTICS PROGRAMME',
-    degree: 'National University of Singapore | MASTER OF SCIENCE BUSINESS ANALYTICS PROGRAMME',
+  program: 'Business Analytics',
+  degree: 'Masters',
     country: 'USA',
     state: '',
     online: false,
     oncampus: true,
     department: '')
 School.create(
-    name: 'MSc Business Analytics | Masters in Business Analytics | Barcelona',
+  name: 'Barcelona School of Management',
     url: 'http://www.barcelonaschoolofmanagement.upf.edu/msc-programme-in-business-analytics/presentation',
-    program: 'MSc Business Analytics | Masters in Business Analytics | Barcelona',
-    degree: 'MSc Business Analytics | Masters in Business Analytics | Barcelona',
-    country: 'USA',
+  program: 'Business Analytics',
+    degree: 'Masters',
+    country: 'ES',
     state: '',
     online: false,
     oncampus: true,
     department: '')
 School.create(
-    name: 'Big Data and Business Analytics, MSc Business Information Management - Rotterdam School of Management, Erasmus University',
+    name: 'Erasmus University',
     url: 'http://www.rsm.nl/master/msc-business-information-management/curriculum/starting-point/electives/big-data-and-business-analytics-block-5/',
-    program: 'Big Data and Business Analytics, MSc Business Information Management - Rotterdam School of Management, Erasmus University',
-    degree: 'Big Data and Business Analytics, MSc Business Information Management - Rotterdam School of Management, Erasmus University',
-    country: 'USA',
+    program: 'Big Data and Business Analytics',
+  degree: 'Masters',
+    country: 'NL',
     state: '',
     online: false,
     oncampus: true,
@@ -922,7 +905,8 @@ School.create(
     department: '')
 School.create(
   name: 'City University of New York (CUNY)',
-    url: 'http:Data Analytics',
+    url: 'http://sps.cuny.edu/programs/ms_dataanalytics',
+    program:'Data Analytics',
   degree: 'Masters',
     country: 'USA',
     state: '',
@@ -1600,65 +1584,65 @@ School.create(
     oncampus: true,
     department: '')
 School.create(
-    name: 'MS: Accounting, Finance, Information Systems, Supply Chain Management, Marketing Analytics - Robert H. Smith School of Business - University of Maryland, College Park',
+    name: 'University of Maryland',
     url: 'http://www.rhsmith.umd.edu/ms/analytics/',
-    program: 'MS: Accounting, Finance, Information Systems, Supply Chain Management, Marketing Analytics - Robert H. Smith School of Business - University of Maryland, College Park',
-    degree: 'MS: Accounting, Finance, Information Systems, Supply Chain Management, Marketing Analytics - Robert H. Smith School of Business - University of Maryland, College Park',
+    program: 'Marketing Analytics',
+  degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'MD',
     online: false,
     oncampus: true,
-    department: '')
+department: 'Business')
 School.create(
-    name: 'MS in Business Analytics and Project Management',
+  name: 'University of Connecticut',
     url: 'http://msbapm.uconn.edu/',
-    program: 'MS in Business Analytics and Project Management',
-    degree: 'MS in Business Analytics and Project Management',
+    program: 'Business Analytics and Project Management',
+  degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'CT',
     online: false,
     oncampus: true,
-    department: '')
+  department: 'Business')
 School.create(
-    name: 'Biomedical Informatics MS Degree | Stanford University Online',
+    name: 'Stanford University',
     url: 'http://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1240186#searchResults',
-    program: 'Biomedical Informatics MS Degree | Stanford University Online',
-    degree: 'Biomedical Informatics MS Degree | Stanford University Online',
+    program: 'Biomedical Informatics',
+  degree: 'Masters',
     country: 'USA',
     state: '',
     online: true,
     oncampus: true,
     department: '')
 School.create(
-    name: 'Mining Massive Data Sets Graduate Certificate | Stanford University Online',
+    name: 'Stanford University',
     url: 'http://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=10555807',
-    program: 'Mining Massive Data Sets Graduate Certificate | Stanford University Online',
-    degree: 'Mining Massive Data Sets Graduate Certificate | Stanford University Online',
+    program: 'Mining Massive Data Sets',
+    degree: 'Certificate',
     country: 'USA',
-    state: '',
+    state: 'CA',
     online: true,
     oncampus: true,
     department: '')
 School.create(
-    name: 'Mbs In Analytics | Rutgers University',
-    url: 'http://psm.rutgers.edu/content/analytics',
-    program: 'Mbs In Analytics | Rutgers University',
-    degree: 'Mbs In Analytics | Rutgers University',
-    country: 'USA',
-    state: '',
-    online: false,
-    oncampus: true,
-    department: '')
-School.create(
-    name: 'Rutgers MBA in Analytics and Information Management | Rutgers Business School',
-    url: 'http://www.business.rutgers.edu/mba/concentrations/aim',
-    program: 'Rutgers MBA in Analytics and Information Management | Rutgers Business School',
-    degree: 'Rutgers MBA in Analytics and Information Management | Rutgers Business School',
+    name: 'Rutgers University',
+    url: 'http://psm.rutgers.edu/programs/analytics-data-sciences',
+    program: 'Analytics',
+  degree: 'Masters',
     country: 'USA',
     state: 'NJ',
     online: false,
     oncampus: true,
     department: '')
+School.create(
+  name: 'Rutgers University',
+    url: 'http://www.business.rutgers.edu/mba/concentrations/aim',
+    program: 'Analytics and Information Management',
+  degree: 'Masters',
+    country: 'USA',
+    state: 'NJ',
+    online: false,
+    oncampus: true,
+  department: 'Business')
 School.create(
   name: 'Purdue University',
     url: 'https://masters.krannert.purdue.edu/programs/mba/business-analytics/',
@@ -1670,105 +1654,95 @@ School.create(
     oncampus: true,
 department: 'Business')
 School.create(
-    name: 'MSITM / Business Analytics @ Oakland University - School of Business Administration - Oakland University',
+    name: 'Oakland University',
     url: 'http://www.oakland.edu/MSITM-BA',
-    program: 'MSITM / Business Analytics @ Oakland University - School of Business Administration - Oakland University',
-    degree: 'MSITM / Business Analytics @ Oakland University - School of Business Administration - Oakland University',
+    program: 'Business Analytics',
+  degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'CA',
     online: true,
     oncampus: true,
-    department: '')
+  department: 'Business')
 School.create(
-    name: 'Data Mining Certificate | Njit',
+  name: 'New Jersey Institute of Technology',
     url: 'http://online.njit.edu/programs/certs/datamining-cert.php',
-    program: 'Data Mining Certificate | Njit',
-    degree: 'Data Mining Certificate | Njit',
+    program: 'Data Mining',
+    degree: 'Certificate',
     country: 'USA',
-    state: '',
+    state: 'NJ',
     online: false,
     oncampus: true,
     department: '')
 School.create(
-    name: 'Ms In Applied Statistics | Kennesaw State University',
-    url: 'http://math.kennesaw.edu/academics/grad/MSAS/index.html',
-    program: 'Ms In Applied Statistics | Kennesaw State University',
-    degree: 'Ms In Applied Statistics | Kennesaw State University',
+    name: 'Kennesaw State University',
+    url: 'https://analytics.kennesaw.edu/academics/certificate/appl-stat/index.html',
+    program: 'Applied Statistics',
+  degree: 'Certificate',
     country: 'USA',
-    state: '',
+    state: 'GA',
+  online: true,
+    oncampus: true,
+  department: 'Statistics')
+School.create(
+    name: 'Kennesaw State University',
+    url: 'https://analytics.kennesaw.edu/academics/grad/MSAS/index.html',
+    program: 'Applied Statistics',
+  degree: 'Masters',
+    country: 'USA',
+    state: 'GA',
     online: false,
     oncampus: true,
-    department: '')
+  department: 'Statistics')
 School.create(
-    name: 'Johns Hopkins University | Advanced Academic Programs | Center for Biotechnology Education | Master of Science in Bioinformatics Degree Program',
+    name: 'Johns Hopkins University',
     url: 'http://advanced.jhu.edu/academic/biotechnology/ms-in-bioinformatics/',
-    program: 'Johns Hopkins University | Advanced Academic Programs | Center for Biotechnology Education | Master of Science in Bioinformatics Degree Program',
-    degree: 'Johns Hopkins University | Advanced Academic Programs | Center for Biotechnology Education | Master of Science in Bioinformatics Degree Program',
+    program: 'Bioinformatics',
+  degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'MD',
     online: false,
     oncampus: true,
     department: '')
 School.create(
-    name: 'Ms Computational Science And Engineering | Harvard University',
-    url: 'http://iacs.seas.harvard.edu/master-of-science-in-cse',
-    program: 'Ms Computational Science And Engineering | Harvard University',
-    degree: 'Ms Computational Science And Engineering | Harvard University',
-    country: 'SE',
-    state: '',
-    online: false,
-    oncampus: true,
-    department: '')
-School.create(
-    name: 'Ms In Business Analytics | Fordham University',
+    name: 'Fordham University',
     url: 'http://www.bnet.fordham.edu/academics/ms_programs/ms_business_analytics/index.asp',
-    program: 'Ms In Business Analytics | Fordham University',
-    degree: 'Ms In Business Analytics | Fordham University',
+    program: 'Business Analytics',
+  degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'NY',
     online: false,
     oncampus: true,
-    department: '')
+  department: 'Business')
 School.create(
-    name: 'M.S. in Business Analytics | Drexel LeBow',
+  name: 'Drexel University',
     url: 'http://www.lebow.drexel.edu/academics/programs/masters/business-analytics',
-    program: 'M.S. in Business Analytics | Drexel LeBow',
-    degree: 'M.S. in Business Analytics | Drexel LeBow',
+    program: 'Business Analytics',
+  degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'PA',
     online: false,
     oncampus: true,
-    department: '')
+  department: 'Business')
 School.create(
-    name: 'Ms In Predictive Analytics | Depaul University',
-    url: 'http://www.cdm.depaul.edu/academics/Pages/MSinPredictiveAnalytics.aspx',
-    program: 'Ms In Predictive Analytics | Depaul University',
-    degree: 'Ms In Predictive Analytics | Depaul University',
-    country: 'USA',
-    state: '',
-    online: true,
-    oncampus: true,
-    department: '')
-School.create(
-    name: 'Data Mining Certificate | Central Michigan University',
+    name: 'Central Michigan University',
     url: 'http://www.cmich.edu/academics/sci_tech/math/academic_programs/graduate/Pages/default.aspx',
-    program: 'Data Mining Certificate | Central Michigan University',
-    degree: 'Data Mining Certificate | Central Michigan University',
+    program: 'Data Mining',
+  degree: 'Certificate',
     country: 'USA',
-    state: '',
+    state: 'MI',
     online: false,
     oncampus: true,
-    department: '')
+  department: 'Mathematics')
 School.create(
-    name: 'Master of Science in Marketing Analytics | Bentley University',
+    name: 'Bentley University',
     url: 'http://www.bentley.edu/graduate/academics/ms-programs/marketing-analytics',
-    program: 'Master of Science in Marketing Analytics | Bentley University',
-    degree: 'Master of Science in Marketing Analytics | Bentley University',
+    program: 'Marketing Analytics',
+    degree: 'Masters',
     country: 'USA',
-    state: '',
+    state: 'MA',
     online: false,
     oncampus: true,
-    department: '')
+  department: 'Business')
 School.create(
     name: 'Arizona State University',
     url: 'http://wpcarey.asu.edu/masters-programs/business-analytics',
@@ -1802,8 +1776,8 @@ School.create(
 School.create(
   name: 'New York University (NYU)',
     url: 'http://cds.nyu.edu/academics/ms-in-data-science/',
-    program: 'Data Science,
-degree: 'Masters',
+    program: 'Data Science',
+    degree: 'Masters',
     country: 'USA',
     state: 'NY',
     online: false,
