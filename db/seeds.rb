@@ -1690,8 +1690,8 @@ School.create(
   degree: 'Masters',
     country: 'USA',
     state: 'CT',
-    online: false,
-    oncampus: true,
+  online: true,
+  oncampus: false,
     department: '')
 School.create(
     name: 'Loras College',
@@ -1873,3 +1873,13 @@ School.create(
     online: false,
     oncampus: true,
     department: '')
+School.create(
+    name: 'Utrecht University',
+    url: 'http://www.cs.uu.nl/education/',
+    program: 'Business Informatics',
+    degree: 'Masters',
+    country: 'NL',
+    state: '',
+    online: false,
+    oncampus: true,
+    department: 'Information and Computing Sciences')
