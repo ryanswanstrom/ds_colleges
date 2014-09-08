@@ -1883,3 +1883,13 @@ School.create(
     online: false,
     oncampus: true,
     department: 'Information and Computing Sciences')
+School.create(
+    name: 'Tarleton State University',
+    url: 'http://www.tarleton.edu/math/degrees/graduate.html#MSDataMining',
+    program: 'Data Mining',
+    degree: 'Masters',
+    country: 'USA',
+    state: 'TX',
+    online: false,
+    oncampus: true,
+  department: 'Mathematics')
