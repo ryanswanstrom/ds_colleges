@@ -1893,3 +1893,158 @@ School.create(
     online: false,
     oncampus: true,
   department: 'Mathematics')
+School.create(
+  name: 'Villanova University',
+  url: 'http://analytics.villanova.edu/',
+  program: 'Analytics',
+  degree: 'Masters',
+  country: 'USA',
+  state: 'PA',
+  online: true,
+  oncampus: false,
+  department: 'Business')
+School.create(
+  name: 'University of Chicago',
+  url: 'https://grahamschool.uchicago.edu/credit/master-science-analytics/index',
+  program: 'Analytics',
+  degree: 'Masters',
+  country: 'USA',
+  state: 'IL',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'Becker College',
+  url: 'http://www.becker.edu/academics/departments-programs/data-science/',
+  program: 'Data Science',
+  degree: 'Bachelors',
+  country: 'USA',
+  state: 'MA',
+  online: false,
+  oncampus: true,
+  department: 'Data Science')
+School.create(
+  name: 'University of Oklahoma',
+  url: 'http://www.ou.edu/coe/datascience.html',
+  program: 'Data Science and Analytics',
+  degree: 'Masters',
+  country: 'USA',
+  state: 'OK',
+  online: false,
+  oncampus: true,
+  department: 'Engineering')
+School.create(
+  name: 'Regis University',
+  url: 'http://www.regis.edu/CCIS/Academics/Degrees-Programs/Certificates/GC-Data-Science.aspx',
+  program: 'Data Science',
+  degree: 'Certificate',
+  country: 'USA',
+  state: 'CO',
+  online: true,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'Northeastern University',
+  url: 'http://www.ccs.neu.edu/graduate/degree-programs/certificate-data-science/',
+  program: 'Data Science',
+  degree: 'Certificate',
+  country: 'USA',
+  state: 'MA',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'Full Sail University',
+  url: 'http://www.ccs.neu.edu/graduate/degree-programs/certificate-data-science/',
+  program: 'Business Intelligence',
+  degree: 'Masters',
+  country: 'USA',
+  state: 'FL',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'Saint Peter\'s University',
+  url: 'http://www.saintpeters.edu/data-science-and-business-analytics/',
+  program: 'Data Science',
+  degree: 'Masters',
+  country: 'USA',
+  state: 'NJ',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'St. John\'s University',
+  url: 'http://www.stjohns.edu/academics/schools-and-colleges/college-professional-studies/programs-and-majors/data-mining-and-predictive-analytics-master-science',
+  program: 'Data Mining and Predictive Analytics',
+  degree: 'Masters',
+  country: 'USA',
+  state: 'NY',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'University of North Carolina, Charlotte',
+  url: 'http://analytics.uncc.edu/',
+  program: 'Data Science and Business Analytics',
+  degree: 'Masters',
+  country: 'USA',
+  state: 'NC',
+  online: false,
+  oncampus: true,
+  department: 'Data Science')
+School.create(
+  name: 'University of North Carolina, Charlotte',
+  url: 'https://cci.uncc.edu/academic-programs/phd',
+  program: 'Computing and Information Systems',
+  degree: 'Doctorate',
+  country: 'USA',
+  state: 'NC',
+  online: false,
+  oncampus: true,
+  department: 'Computing and Informatics')
+School.create(
+  name: 'Drexel University',
+  url: 'http://drexel.edu/cci/academics/graduate-programs/phd-information-studies/',
+  program: 'Information Studies',
+  degree: 'Doctorate',
+  country: 'USA',
+  state: 'PA',
+  online: false,
+  oncampus: true,
+  department: 'Computing and Informatics')
+School.create(
+  name: 'Chapman University',
+  url: 'http://www.chapman.edu/scst/graduate/phd-computational-science.aspx',
+  program: 'Computational and Data Sciences',
+  degree: 'Doctorate',
+  country: 'USA',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Interdisciplinary')
+School.create(
+  name: 'University of Minnesota',
+  url: 'http://carlsonschool.umn.edu/degrees/master-science-business-analytics',
+  program: 'Business Analytics',
+  degree: 'Masters',
+  country: 'USA',
+  state: 'MN',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'University of St. Thomas',
+  url: 'http://www.stthomas.edu/gradsoftware/programs/masters/msdatascience/',
+  program: 'Data Science',
+  degree: 'Masters',
+  country: 'USA',
+  state: 'MN',
+  online: false,
+  oncampus: true,
+  department: 'Engineering')
+
+
+
+
+
