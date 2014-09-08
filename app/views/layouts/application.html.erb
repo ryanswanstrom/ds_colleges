@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>Data Science Colleges</title>
+    <meta name="description" content="data science, college, university">
+    <meta name="author" content="Ryan Swanstrom">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -14,10 +16,10 @@
 
   </head> 
 <body>
-<%= render partial: "elements/navbar" %>
-<%= bootstrap_flash %>
-
-
-<%= yield %>
+  <%= render partial: "elements/navbar" %>
+  <%= bootstrap_flash %>
+  <div class="container">
+    <%= yield %>
+  </div>
 </body>
 </html>
