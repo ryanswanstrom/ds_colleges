@@ -2043,6 +2043,26 @@ School.create(
   online: false,
   oncampus: true,
   department: 'Engineering')
+School.create(
+  name: 'Southern New Hampshire University',
+  url: 'http://www.snhu.edu/online-degrees/graduate-degrees/data-analytics-ms-online.asp',
+  program: 'Data Analytics',
+  degree: 'Masters',
+  country: 'USA',
+  state: 'NH',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'Southern New Hampshire University',
+  url: 'http://www.snhu.edu/online-degrees/undergraduate-degrees/data-analytics-bs-online.asp',
+  program: 'Data Analytics',
+  degree: 'Bachelors',
+  country: 'USA',
+  state: 'NH',
+  online: true,
+  oncampus: false,
+  department: '')
 
 
 
