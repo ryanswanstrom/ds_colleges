@@ -2053,6 +2053,26 @@ School.create(
   online: true,
   oncampus: false,
   department: '')
+School.create(
+  name: 'Instituto de Empresa',
+  url: 'http://mbd.ie.edu/',
+  program: 'Business Analytics and Big Data',
+  degree: 'Masters',
+  country: 'ES',
+  state: '',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'Arkansas Tech University',
+  url: 'http://www.atu.edu/business/programs_bdanalytics.php',
+  program: 'Business Data Analytics',
+  degree: 'Bachelors',
+  country: 'USA',
+  state: 'AR',
+  online: true,
+  oncampus: false,
+  department: 'Business')
 
 
 
