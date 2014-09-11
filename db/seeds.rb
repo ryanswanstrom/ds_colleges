@@ -2068,7 +2068,7 @@ School.create(
   url: 'http://teaching.ncl.ac.uk/ccfbd-cdt',
   program: 'Cloud Computing for Big Data',
   degree: 'Doctorate',
-  country: 'UK',
+  country: 'GB',
   state: '',
   online: false,
   oncampus: true,
