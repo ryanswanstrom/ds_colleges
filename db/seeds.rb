@@ -2073,6 +2073,26 @@ School.create(
   online: true,
   oncampus: false,
   department: 'Business')
+School.create(
+  name: 'Newcastle University',
+  url: 'http://teaching.ncl.ac.uk/ccfbd-cdt',
+  program: 'Cloud Computing for Big Data',
+  degree: 'Doctorate',
+  country: 'UK',
+  state: '',
+  online: false,
+  oncampus: true,
+  department: 'Computing Science / Mathematics and Statistics')
+School.create(
+  name: 'University of California, Berkeley',
+  url: 'http://www.eecs.berkeley.edu/MEng/index.shtml',
+  program: 'Data Science and Systems Concentration',
+  degree: 'Masters',
+  country: 'UK',
+  state: '',
+  online: false,
+  oncampus: true,
+  department: 'Engineering')
 
 
 
