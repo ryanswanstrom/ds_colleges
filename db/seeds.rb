@@ -1714,16 +1714,6 @@ School.create(
     oncampus: true,
     department: '')
 School.create(
-  name: 'University of California Berkeley',
-    url: 'http://www.ischool.berkeley.edu/',
-  program: 'Information and Data Science',
-  degree: 'Masters',
-    country: 'USA',
-    state: 'CA',
-    online: false,
-    oncampus: true,
-    department: 'School of Information')
-School.create(
     name: 'College of Charleston',
     url: 'http://www.cofc.edu/academics/majorsandminors/data-science.php',
     program: 'Data Science',
@@ -2088,8 +2078,8 @@ School.create(
   url: 'http://www.eecs.berkeley.edu/MEng/index.shtml',
   program: 'Data Science and Systems Concentration',
   degree: 'Masters',
-  country: 'UK',
-  state: '',
+  country: 'USA',
+  state: 'CA',
   online: false,
   oncampus: true,
   department: 'Engineering')
