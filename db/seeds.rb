@@ -1305,7 +1305,7 @@ School.create(
     department: '')
 School.create(
     name: 'The George Washington University',
-    url: 'http://www.gwanalytics.org/',
+    url: 'http://business.gwu.edu/msba',
     program: 'Business Analytics',
   degree: 'Masters',
     country: 'US',
