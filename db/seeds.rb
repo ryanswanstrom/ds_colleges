@@ -2083,6 +2083,16 @@ School.create(
   online: false,
   oncampus: true,
   department: 'Engineering')
+School.create(
+  name: 'St. Mary\'s University',
+  url: 'http://www.eecs.berkeley.edu/MEng/index.shtml',
+  program: 'Data Analytics',
+  degree: 'Bachelors',
+  country: 'US',
+  state: 'TX',
+  online: false,
+  oncampus: true,
+  department: 'Business')
 
 
 
