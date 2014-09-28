@@ -2085,7 +2085,7 @@ School.create(
   department: 'Engineering')
 School.create(
   name: 'St. Mary\'s University',
-  url: 'http://www.eecs.berkeley.edu/MEng/index.shtml',
+  url: 'https://www.stmarytx.edu/academics/business/undergraduate/accounting-data-analytics-major/',
   program: 'Data Analytics',
   degree: 'Bachelors',
   country: 'US',
