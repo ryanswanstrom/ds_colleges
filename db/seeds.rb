@@ -2093,6 +2093,26 @@ School.create(
   online: false,
   oncampus: true,
   department: 'Business')
+School.create(
+  name: 'City University London',
+  url: 'http://www.city.ac.uk/courses/postgraduate/data-science-msc',
+  program: 'Data Science',
+  degree: 'Masters',
+  country: 'GB',
+  state: '',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'University of Nottingham',
+  url: 'http://www.nottingham.ac.uk/ugstudy/courses/computerscience/bsc-data-science.aspx',
+  program: 'Data Science',
+  degree: 'Bachelors',
+  country: 'GB',
+  state: '',
+  online: false,
+  oncampus: true,
+  department: 'Computer Science')
 
 
 
